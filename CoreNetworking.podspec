@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 
-  s.name         = "CoreDataManager"
+  s.name         = "CoreNetworking"
   s.version      = "1.0.0"
   s.summary      = "A static library project that simplifies NSURLSession."
 
