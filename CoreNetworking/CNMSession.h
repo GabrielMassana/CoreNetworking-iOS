@@ -21,9 +21,8 @@
 
 + (instancetype __nonnull)defaultSession;
 
-- (instancetype __nonnull)initWithConfiguration:(NSURLSessionConfiguration * __nullable)configuration NS_DESIGNATED_INITIALIZER;
+- (instancetype __nonnull)initWithConfiguration:(NSURLSessionConfiguration *__nullable)configuration NS_DESIGNATED_INITIALIZER;
 
-
-- (CNMURLSessionDataTask * __nonnull)makeDataTaskFromRequest:(CNMRequest * __nonnull)request;
+- (CNMURLSessionDataTask *__nonnull)dataTaskFromRequest:(CNMRequest *__nonnull)request;
 
 @end

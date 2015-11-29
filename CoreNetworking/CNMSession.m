@@ -51,7 +51,7 @@
     return self;
 }
 
-- (instancetype __nonnull)initWithConfiguration:(NSURLSessionConfiguration * __nullable)configuration
+- (instancetype __nonnull)initWithConfiguration:(NSURLSessionConfiguration *__nullable)configuration
 {
     self = [super init];
     
@@ -76,7 +76,7 @@
 
 #pragma mark - CreateSession
 
-- (void)createURLSessionWithConfiguration:(NSURLSessionConfiguration * __nullable)configuration
+- (void)createURLSessionWithConfiguration:(NSURLSessionConfiguration *__nullable)configuration
 {
     NSURLSessionConfiguration *configurationToUse = configuration;
     
@@ -92,7 +92,7 @@
 
 #pragma mark - Tasks
 
-- (CNMURLSessionDataTask * __nonnull)makeDataTaskFromRequest:(CNMRequest * __nonnull)request
+- (CNMURLSessionDataTask *__nonnull)dataTaskFromRequest:(CNMRequest *__nonnull)request
 {
     CNMURLSessionDataTask *task = [[CNMURLSessionDataTask alloc] init];
 
@@ -100,7 +100,6 @@
                                  completionHandler:^(NSData * _Nullable data, NSURLResponse * _Nullable response, NSError * _Nullable error)
     {
         task.onCompletion(data, response, error);
-
     }];
     
     return task;    

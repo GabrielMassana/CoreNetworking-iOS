@@ -10,9 +10,9 @@
 
 @interface CNMURLSessionDataTask : NSObject
 
-@property (nonatomic, copy)  void (^ _Nullable onCompletion )(NSData * __nullable data, NSURLResponse * __nullable response, NSError * __nullable error);
+@property (nonatomic, copy) void(^_Nullable onCompletion)(NSData *__nullable data, NSURLResponse *__nullable response, NSError *__nullable error);
 
-@property (nonatomic, strong) NSURLSessionDataTask *__nonnull task ;
+@property (nonatomic, strong) NSURLSessionDataTask *__nonnull task;
 
 - (void)resume;
 
