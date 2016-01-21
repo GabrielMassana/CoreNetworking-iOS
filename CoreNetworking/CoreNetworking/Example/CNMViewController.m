@@ -6,13 +6,13 @@
 //  Copyright © 2016 GabrielMassana. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "CNMViewController.h"
 
-@interface ViewController ()
+@interface CNMViewController ()
 
 @end
 
-@implementation ViewController
+@implementation CNMViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];

@@ -12,7 +12,7 @@
 		C07313241C5126FA00AE5DA9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C07313231C5126FA00AE5DA9 /* Assets.xcassets */; };
 		C07313271C5126FA00AE5DA9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C07313251C5126FA00AE5DA9 /* LaunchScreen.storyboard */; };
 		C07313421C51277D00AE5DA9 /* CNMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C073133F1C51277D00AE5DA9 /* CNMAppDelegate.m */; };
-		C07313431C51277D00AE5DA9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C07313411C51277D00AE5DA9 /* ViewController.m */; };
+		C07313431C51277D00AE5DA9 /* CNMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C07313411C51277D00AE5DA9 /* CNMViewController.m */; };
 		C07313501C5127A600AE5DA9 /* CNMURLSessionDataTask.m in Sources */ = {isa = PBXBuildFile; fileRef = C07313471C5127A600AE5DA9 /* CNMURLSessionDataTask.m */; };
 		C07313511C5127A600AE5DA9 /* CNMRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = C073134C1C5127A600AE5DA9 /* CNMRequest.m */; };
 		C07313521C5127A600AE5DA9 /* CNMSession.m in Sources */ = {isa = PBXBuildFile; fileRef = C073134F1C5127A600AE5DA9 /* CNMSession.m */; };
@@ -27,8 +27,8 @@
 		C07313281C5126FA00AE5DA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C073133E1C51277D00AE5DA9 /* CNMAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CNMAppDelegate.h; sourceTree = "<group>"; };
 		C073133F1C51277D00AE5DA9 /* CNMAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CNMAppDelegate.m; sourceTree = "<group>"; };
-		C07313401C51277D00AE5DA9 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		C07313411C51277D00AE5DA9 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C07313401C51277D00AE5DA9 /* CNMViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CNMViewController.h; sourceTree = "<group>"; };
+		C07313411C51277D00AE5DA9 /* CNMViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CNMViewController.m; sourceTree = "<group>"; };
 		C07313461C5127A600AE5DA9 /* CNMURLSessionDataTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CNMURLSessionDataTask.h; sourceTree = "<group>"; };
 		C07313471C5127A600AE5DA9 /* CNMURLSessionDataTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CNMURLSessionDataTask.m; sourceTree = "<group>"; };
 		C07313491C5127A600AE5DA9 /* CoreNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreNetworking.h; sourceTree = "<group>"; };
@@ -92,8 +92,8 @@
 			children = (
 				C073133E1C51277D00AE5DA9 /* CNMAppDelegate.h */,
 				C073133F1C51277D00AE5DA9 /* CNMAppDelegate.m */,
-				C07313401C51277D00AE5DA9 /* ViewController.h */,
-				C07313411C51277D00AE5DA9 /* ViewController.m */,
+				C07313401C51277D00AE5DA9 /* CNMViewController.h */,
+				C07313411C51277D00AE5DA9 /* CNMViewController.m */,
 			);
 			path = Example;
 			sourceTree = "<group>";
@@ -216,7 +216,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C07313501C5127A600AE5DA9 /* CNMURLSessionDataTask.m in Sources */,
-				C07313431C51277D00AE5DA9 /* ViewController.m in Sources */,
+				C07313431C51277D00AE5DA9 /* CNMViewController.m in Sources */,
 				C07313511C5127A600AE5DA9 /* CNMRequest.m in Sources */,
 				C07313191C5126FA00AE5DA9 /* main.m in Sources */,
 				C07313421C51277D00AE5DA9 /* CNMAppDelegate.m in Sources */,
