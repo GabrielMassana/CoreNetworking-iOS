@@ -1,6 +1,6 @@
 //
 //  CNMDataOperation.h
-//  Hot
+//  CoreNetworking
 //
 //  Created by GabrielMassana on 27/11/2015.
 //  Copyright © 2015 Gabriel Massana. All rights reserved.

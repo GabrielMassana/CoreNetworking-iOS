@@ -1,6 +1,6 @@
 //
 //  CNMRequest.m
-//  Hot
+//  CoreNetworking
 //
 //  Created by GabrielMassana on 25/11/2015.
 //  Copyright © 2015 Gabriel Massana. All rights reserved.

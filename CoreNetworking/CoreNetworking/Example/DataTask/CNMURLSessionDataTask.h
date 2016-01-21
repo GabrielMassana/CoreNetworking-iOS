@@ -1,6 +1,6 @@
 //
 //  CNMURLSessionDataTask.h
-//  Hot
+//  CoreNetworking
 //
 //  Created by GabrielMassana on 26/11/2015.
 //  Copyright © 2015 Gabriel Massana. All rights reserved.
