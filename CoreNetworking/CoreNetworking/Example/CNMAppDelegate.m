@@ -6,13 +6,13 @@
 //  Copyright © 2016 GabrielMassana. All rights reserved.
 //
 
-#import "AppDelegate.h"
+#import "CNMAppDelegate.h"
 
-@interface AppDelegate ()
+@interface CNMAppDelegate ()
 
 @end
 
-@implementation AppDelegate
+@implementation CNMAppDelegate
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
