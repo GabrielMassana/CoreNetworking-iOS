@@ -1,18 +1,18 @@
 //
-//  HOTDataOperation.m
+//  CNMDataOperation.m
 //  Hot
 //
 //  Created by GabrielMassana on 27/11/2015.
 //  Copyright © 2015 Gabriel Massana. All rights reserved.
 //
 
-#import "HOTDataOperation.h"
+#import "CNMDataOperation.h"
 
 #import "CNMSession.h"
 #import "CNMRequest.h"
 #import "CNMURLSessionDataTask.h"
 
-@implementation HOTDataOperation
+@implementation CNMDataOperation
 
 #pragma mark - Identifier
 
@@ -22,7 +22,7 @@
 {
     if (!_identifier)
     {
-        _identifier = [NSString stringWithFormat:@"HOTDataOperation"];
+        _identifier = [NSString stringWithFormat:@"CNMDataOperation"];
     }
     
     return _identifier;
@@ -35,7 +35,7 @@
     [super start];
     
     CNMRequest *request = [[CNMRequest alloc] init];
-    request.URL = [NSURL URLWithString:@"https://unii-interview.herokuapp.com/api/v1/posts"];
+    request.URL = [NSURL URLWithString:@"http://exampleapi.com/json"];
     
     CNMURLSessionDataTask *task = [[CNMSession defaultSession] dataTaskFromRequest:request];
     
@@ -43,16 +43,16 @@
     {
         if (!error)
         {
-            // Parse the raw JSON data.
+            // Raw data to JSON.
             NSDictionary *json = [NSJSONSerialization JSONObjectWithData:data
                                                                  options: NSJSONReadingMutableContainers
                                                                    error: nil];
-            
-            NSLog(@"json = %ld",[json[@"posts"][@"data"] count]);
-            NSLog(@"isMainThread %d", [NSThread currentThread].isMainThread);
 
             //Parse data here
+
+            NSLog(@"isMainThread %d", [NSThread currentThread].isMainThread);
             
+            //Completion
             [self didSucceedWithResult:json];
         }
         else
@@ -61,12 +61,8 @@
         }
     };
     
-    
     [task resume];
 }
-
-
-
 
 #pragma mark - Cancel
 

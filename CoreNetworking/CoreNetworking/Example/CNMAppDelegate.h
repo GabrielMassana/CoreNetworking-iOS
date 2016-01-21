@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
+extern NSString *const kCNMNetworkingOperationQueueTypeIdentifier;
+
 @interface CNMAppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;

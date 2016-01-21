@@ -8,6 +8,10 @@
 
 #import "CNMAppDelegate.h"
 
+#import "COMOperationQueueManager.h"
+
+NSString *const kCNMNetworkingOperationQueueTypeIdentifier = @"kCNMNetworkingOperationQueueTypeIdentifier";
+
 @interface CNMAppDelegate ()
 
 @end
@@ -17,7 +21,29 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    
+    [self registerOperationQueues];
+
     return YES;
+}
+
+#pragma mark - OperationQueues
+
+- (void)registerOperationQueues
+{
+    //Network UI
+    
+    //Network Background
+    NSOperationQueue *networkDataOperationQueue = [[NSOperationQueue alloc] init];
+    networkDataOperationQueue.qualityOfService = NSQualityOfServiceBackground;
+    networkDataOperationQueue.maxConcurrentOperationCount = NSOperationQueueDefaultMaxConcurrentOperationCount;
+    
+    [[COMOperationQueueManager sharedInstance] registerOperationQueue:networkDataOperationQueue
+                                             operationQueueIdentifier:kCNMNetworkingOperationQueueTypeIdentifier];
+    
+    //Media Download
+    
+    //Core Data Update
 }
 
 @end

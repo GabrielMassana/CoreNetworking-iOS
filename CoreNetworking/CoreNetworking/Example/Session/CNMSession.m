@@ -60,10 +60,10 @@
         self.name = @"CNMSession";
         
         //Setup Atomic Properties
-        self.dispatchQueue = dispatch_queue_create("com.hot.corenetworking.CNMSessionQueue", NULL);
+        self.dispatchQueue = dispatch_queue_create("com.CNM.corenetworking.CNMSessionQueue", NULL);
         
         self.operationQueue = [[NSOperationQueue alloc] init];
-        self.operationQueue.name = [NSString stringWithFormat:@"com.hot.corenetworking.%@-OperationQueue",
+        self.operationQueue.name = [NSString stringWithFormat:@"com.CNM.corenetworking.%@-OperationQueue",
                                     self.name];
         
         self.taskContextDictionary = [[NSMutableDictionary alloc] init];
