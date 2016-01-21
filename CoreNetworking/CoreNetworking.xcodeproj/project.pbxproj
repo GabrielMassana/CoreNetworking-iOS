@@ -16,6 +16,7 @@
 		C07313501C5127A600AE5DA9 /* CNMURLSessionDataTask.m in Sources */ = {isa = PBXBuildFile; fileRef = C07313471C5127A600AE5DA9 /* CNMURLSessionDataTask.m */; };
 		C07313511C5127A600AE5DA9 /* CNMRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = C073134C1C5127A600AE5DA9 /* CNMRequest.m */; };
 		C07313521C5127A600AE5DA9 /* CNMSession.m in Sources */ = {isa = PBXBuildFile; fileRef = C073134F1C5127A600AE5DA9 /* CNMSession.m */; };
+		C07313651C514D6E00AE5DA9 /* HOTDataOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = C07313641C514D6E00AE5DA9 /* HOTDataOperation.m */; };
 		C6038C118D8EB0583E2FD282 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3863EB8C42856B8CF9B1624B /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -39,6 +40,8 @@
 		C073134C1C5127A600AE5DA9 /* CNMRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CNMRequest.m; sourceTree = "<group>"; };
 		C073134E1C5127A600AE5DA9 /* CNMSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CNMSession.h; sourceTree = "<group>"; };
 		C073134F1C5127A600AE5DA9 /* CNMSession.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CNMSession.m; sourceTree = "<group>"; };
+		C07313631C514D6E00AE5DA9 /* HOTDataOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HOTDataOperation.h; sourceTree = "<group>"; };
+		C07313641C514D6E00AE5DA9 /* HOTDataOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HOTDataOperation.m; sourceTree = "<group>"; };
 		DE1BE7246B828B90BD5861CC /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -118,6 +121,8 @@
 				C073133F1C51277D00AE5DA9 /* CNMAppDelegate.m */,
 				C07313401C51277D00AE5DA9 /* CNMViewController.h */,
 				C07313411C51277D00AE5DA9 /* CNMViewController.m */,
+				C07313631C514D6E00AE5DA9 /* HOTDataOperation.h */,
+				C07313641C514D6E00AE5DA9 /* HOTDataOperation.m */,
 			);
 			path = Example;
 			sourceTree = "<group>";
@@ -294,6 +299,7 @@
 				C07313431C51277D00AE5DA9 /* CNMViewController.m in Sources */,
 				C07313511C5127A600AE5DA9 /* CNMRequest.m in Sources */,
 				C07313191C5126FA00AE5DA9 /* main.m in Sources */,
+				C07313651C514D6E00AE5DA9 /* HOTDataOperation.m in Sources */,
 				C07313421C51277D00AE5DA9 /* CNMAppDelegate.m in Sources */,
 				C07313521C5127A600AE5DA9 /* CNMSession.m in Sources */,
 			);
