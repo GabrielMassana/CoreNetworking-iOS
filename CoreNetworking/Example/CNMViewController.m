@@ -12,6 +12,9 @@
 
 #import "CNMAppDelegate.h"
 #import "CNMDataOperation.h"
+#import "CNMSession.h"
+#import "CNMRequest.h"
+#import "CNMURLSessionDataTask.h"
 
 @interface CNMViewController ()
 
@@ -31,6 +34,7 @@
     [super viewDidLoad];
     
     [self callAPIWithAnOperation];
+//    [self callAPIWithoutoperation]; // This example will freeze the app
 }
 
 #pragma mark - Example
@@ -48,4 +52,37 @@
     
     [[COMOperationQueueManager sharedInstance] addOperation:operation];
 }
+
+- (void)callAPIWithoutoperation
+{
+    CNMRequest *request = [[CNMRequest alloc] init];
+    request.URL = [NSURL URLWithString:@"http://exampleapi.com/json"];
+    
+    CNMURLSessionDataTask *task = [[CNMSession defaultSession] dataTaskFromRequest:request];
+    
+    task.onCompletion = ^void(NSData *data, NSURLResponse *response, NSError *error)
+    {
+        if (!error)
+        {
+            // Raw data to JSON.
+            NSDictionary *json = [NSJSONSerialization JSONObjectWithData:data
+                                                                 options: NSJSONReadingMutableContainers
+                                                                   error: nil];
+            
+            //Parse data here
+            
+            NSLog(@"isMainThread %d", [NSThread currentThread].isMainThread);
+            
+            //Completion
+            NSLog(@"result %@", json);
+        }
+        else
+        {
+            NSLog(@"error %@", error);
+        }
+    };
+    
+    [task resume];
+}
+
 @end
