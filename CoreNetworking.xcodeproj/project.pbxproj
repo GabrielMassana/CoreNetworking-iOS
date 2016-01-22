@@ -74,6 +74,45 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		C00B67C61C52639700652D03 /* DataTask */ = {
+			isa = PBXGroup;
+			children = (
+				C00B67C71C52639700652D03 /* CNMURLSessionDataTask.h */,
+				C00B67C81C52639700652D03 /* CNMURLSessionDataTask.m */,
+			);
+			name = DataTask;
+			path = "CoreNetworking-iOS/DataTask";
+			sourceTree = SOURCE_ROOT;
+		};
+		C00B67C91C52639700652D03 /* Header */ = {
+			isa = PBXGroup;
+			children = (
+				C00B67CA1C52639700652D03 /* CoreNetworking.h */,
+			);
+			name = Header;
+			path = "CoreNetworking-iOS/Header";
+			sourceTree = SOURCE_ROOT;
+		};
+		C00B67CB1C52639700652D03 /* Request */ = {
+			isa = PBXGroup;
+			children = (
+				C00B67CC1C52639700652D03 /* CNMRequest.h */,
+				C00B67CD1C52639700652D03 /* CNMRequest.m */,
+			);
+			name = Request;
+			path = "CoreNetworking-iOS/Request";
+			sourceTree = SOURCE_ROOT;
+		};
+		C00B67CE1C52639700652D03 /* Session */ = {
+			isa = PBXGroup;
+			children = (
+				C00B67CF1C52639700652D03 /* CNMSession.h */,
+				C00B67D01C52639700652D03 /* CNMSession.m */,
+			);
+			name = Session;
+			path = "CoreNetworking-iOS/Session";
+			sourceTree = SOURCE_ROOT;
+		};
 		C073130B1C5126FA00AE5DA9 = {
 			isa = PBXGroup;
 			children = (
@@ -130,10 +169,10 @@
 		C07313441C51279000AE5DA9 /* CoreNetworking */ = {
 			isa = PBXGroup;
 			children = (
-				C07313451C5127A600AE5DA9 /* DataTask */,
-				C07313481C5127A600AE5DA9 /* Header */,
-				C073134A1C5127A600AE5DA9 /* Request */,
-				C073134D1C5127A600AE5DA9 /* Session */,
+				C00B67C61C52639700652D03 /* DataTask */,
+				C00B67C91C52639700652D03 /* Header */,
+				C00B67CB1C52639700652D03 /* Request */,
+				C00B67CE1C52639700652D03 /* Session */,
 			);
 			name = CoreNetworking;
 			path = Example;
