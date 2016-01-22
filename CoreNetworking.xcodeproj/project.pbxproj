@@ -10,6 +10,9 @@
 		C00B67D61C52656500652D03 /* CNMURLSessionDataTask.m in Sources */ = {isa = PBXBuildFile; fileRef = C00B67D51C52656500652D03 /* CNMURLSessionDataTask.m */; };
 		C00B67DA1C52657300652D03 /* CNMRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = C00B67D91C52657300652D03 /* CNMRequest.m */; };
 		C00B67DD1C52657800652D03 /* CNMSession.m in Sources */ = {isa = PBXBuildFile; fileRef = C00B67DC1C52657800652D03 /* CNMSession.m */; };
+		C00B67E01C52679500652D03 /* CNMURLSessionDataTask.m in Sources */ = {isa = PBXBuildFile; fileRef = C00B67DF1C52679500652D03 /* CNMURLSessionDataTask.m */; };
+		C00B67E41C5267A200652D03 /* CNMRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = C00B67E31C5267A200652D03 /* CNMRequest.m */; };
+		C00B67E71C5267A700652D03 /* CNMSession.m in Sources */ = {isa = PBXBuildFile; fileRef = C00B67E61C5267A700652D03 /* CNMSession.m */; };
 		C07313191C5126FA00AE5DA9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C07313181C5126FA00AE5DA9 /* main.m */; };
 		C07313221C5126FA00AE5DA9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C07313201C5126FA00AE5DA9 /* Main.storyboard */; };
 		C07313241C5126FA00AE5DA9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C07313231C5126FA00AE5DA9 /* Assets.xcassets */; };
@@ -23,13 +26,16 @@
 /* Begin PBXFileReference section */
 		3863EB8C42856B8CF9B1624B /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA3D3306C200173E84BCBCED /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
-		C00B67D41C52656500652D03 /* CNMURLSessionDataTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CNMURLSessionDataTask.h; path = "CoreNetworking-iOS/DataTask/CNMURLSessionDataTask.h"; sourceTree = SOURCE_ROOT; };
 		C00B67D51C52656500652D03 /* CNMURLSessionDataTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CNMURLSessionDataTask.m; path = "CoreNetworking-iOS/DataTask/CNMURLSessionDataTask.m"; sourceTree = SOURCE_ROOT; };
-		C00B67D71C52656E00652D03 /* CoreNetworking.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = CoreNetworking.h; path = "CoreNetworking-iOS/Header/CoreNetworking.h"; sourceTree = SOURCE_ROOT; };
-		C00B67D81C52657300652D03 /* CNMRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CNMRequest.h; path = "CoreNetworking-iOS/Request/CNMRequest.h"; sourceTree = SOURCE_ROOT; };
 		C00B67D91C52657300652D03 /* CNMRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CNMRequest.m; path = "CoreNetworking-iOS/Request/CNMRequest.m"; sourceTree = SOURCE_ROOT; };
-		C00B67DB1C52657800652D03 /* CNMSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CNMSession.h; path = "CoreNetworking-iOS/Session/CNMSession.h"; sourceTree = SOURCE_ROOT; };
 		C00B67DC1C52657800652D03 /* CNMSession.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CNMSession.m; path = "CoreNetworking-iOS/Session/CNMSession.m"; sourceTree = SOURCE_ROOT; };
+		C00B67DE1C52679500652D03 /* CNMURLSessionDataTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CNMURLSessionDataTask.h; sourceTree = "<group>"; };
+		C00B67DF1C52679500652D03 /* CNMURLSessionDataTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CNMURLSessionDataTask.m; sourceTree = "<group>"; };
+		C00B67E11C52679D00652D03 /* CoreNetworking.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreNetworking.h; sourceTree = "<group>"; };
+		C00B67E21C5267A200652D03 /* CNMRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CNMRequest.h; sourceTree = "<group>"; };
+		C00B67E31C5267A200652D03 /* CNMRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CNMRequest.m; sourceTree = "<group>"; };
+		C00B67E51C5267A700652D03 /* CNMSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CNMSession.h; sourceTree = "<group>"; };
+		C00B67E61C5267A700652D03 /* CNMSession.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CNMSession.m; sourceTree = "<group>"; };
 		C07313141C5126FA00AE5DA9 /* CoreNetworking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreNetworking.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C07313181C5126FA00AE5DA9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C07313211C5126FA00AE5DA9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -77,8 +83,8 @@
 		C00B67C61C52639700652D03 /* DataTask */ = {
 			isa = PBXGroup;
 			children = (
-				C00B67C71C52639700652D03 /* CNMURLSessionDataTask.h */,
-				C00B67C81C52639700652D03 /* CNMURLSessionDataTask.m */,
+				C00B67DE1C52679500652D03 /* CNMURLSessionDataTask.h */,
+				C00B67DF1C52679500652D03 /* CNMURLSessionDataTask.m */,
 			);
 			name = DataTask;
 			path = "CoreNetworking-iOS/DataTask";
@@ -87,7 +93,7 @@
 		C00B67C91C52639700652D03 /* Header */ = {
 			isa = PBXGroup;
 			children = (
-				C00B67CA1C52639700652D03 /* CoreNetworking.h */,
+				C00B67E11C52679D00652D03 /* CoreNetworking.h */,
 			);
 			name = Header;
 			path = "CoreNetworking-iOS/Header";
@@ -96,8 +102,8 @@
 		C00B67CB1C52639700652D03 /* Request */ = {
 			isa = PBXGroup;
 			children = (
-				C00B67CC1C52639700652D03 /* CNMRequest.h */,
-				C00B67CD1C52639700652D03 /* CNMRequest.m */,
+				C00B67E21C5267A200652D03 /* CNMRequest.h */,
+				C00B67E31C5267A200652D03 /* CNMRequest.m */,
 			);
 			name = Request;
 			path = "CoreNetworking-iOS/Request";
@@ -106,8 +112,8 @@
 		C00B67CE1C52639700652D03 /* Session */ = {
 			isa = PBXGroup;
 			children = (
-				C00B67CF1C52639700652D03 /* CNMSession.h */,
-				C00B67D01C52639700652D03 /* CNMSession.m */,
+				C00B67E51C5267A700652D03 /* CNMSession.h */,
+				C00B67E61C5267A700652D03 /* CNMSession.m */,
 			);
 			name = Session;
 			path = "CoreNetworking-iOS/Session";
@@ -176,41 +182,6 @@
 			);
 			name = CoreNetworking;
 			path = Example;
-			sourceTree = "<group>";
-		};
-		C07313451C5127A600AE5DA9 /* DataTask */ = {
-			isa = PBXGroup;
-			children = (
-				C00B67D41C52656500652D03 /* CNMURLSessionDataTask.h */,
-				C00B67D51C52656500652D03 /* CNMURLSessionDataTask.m */,
-			);
-			path = DataTask;
-			sourceTree = "<group>";
-		};
-		C07313481C5127A600AE5DA9 /* Header */ = {
-			isa = PBXGroup;
-			children = (
-				C00B67D71C52656E00652D03 /* CoreNetworking.h */,
-			);
-			path = Header;
-			sourceTree = "<group>";
-		};
-		C073134A1C5127A600AE5DA9 /* Request */ = {
-			isa = PBXGroup;
-			children = (
-				C00B67D81C52657300652D03 /* CNMRequest.h */,
-				C00B67D91C52657300652D03 /* CNMRequest.m */,
-			);
-			path = Request;
-			sourceTree = "<group>";
-		};
-		C073134D1C5127A600AE5DA9 /* Session */ = {
-			isa = PBXGroup;
-			children = (
-				C00B67DB1C52657800652D03 /* CNMSession.h */,
-				C00B67DC1C52657800652D03 /* CNMSession.m */,
-			);
-			path = Session;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -338,9 +309,12 @@
 				C00B67DD1C52657800652D03 /* CNMSession.m in Sources */,
 				C07313431C51277D00AE5DA9 /* CNMViewController.m in Sources */,
 				C07313191C5126FA00AE5DA9 /* main.m in Sources */,
+				C00B67E01C52679500652D03 /* CNMURLSessionDataTask.m in Sources */,
 				C07313651C514D6E00AE5DA9 /* CNMDataOperation.m in Sources */,
 				C00B67DA1C52657300652D03 /* CNMRequest.m in Sources */,
+				C00B67E41C5267A200652D03 /* CNMRequest.m in Sources */,
 				C07313421C51277D00AE5DA9 /* CNMAppDelegate.m in Sources */,
+				C00B67E71C5267A700652D03 /* CNMSession.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
