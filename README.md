@@ -22,7 +22,35 @@ Drag into your project the folder `/CoreNetworking-iOS`. That's all.
 ## Example
 
 ```objc
-Soon
+
+#import "CNMSession.h"
+#import "CNMRequest.h"
+#import "CNMURLSessionDataTask.h"
+
+...
+
+    CNMRequest *request = [[CNMRequest alloc] init];
+    request.URL = [NSURL URLWithString:@"http://exampleapi.com/json"];
+    
+    CNMURLSessionDataTask *task = [[CNMSession defaultSession] dataTaskFromRequest:request];
+    
+    task.onCompletion = ^void(NSData *data, NSURLResponse *response, NSError *error)
+    {
+        if (!error)
+        {
+            // Raw data to JSON.
+            NSDictionary *json = [NSJSONSerialization JSONObjectWithData:data
+                                                                 options: NSJSONReadingMutableContainers
+                                                                   error: nil];
+        }
+        else
+        {
+            NSLog(@"error %@", error);
+        }
+    };
+    
+    [task resume];
+
 ```
 
 ## License
