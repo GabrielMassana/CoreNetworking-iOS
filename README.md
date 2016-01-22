@@ -5,7 +5,7 @@
 [![Platform](https://img.shields.io/cocoapods/p/CoreNetworking.svg?style=flat-square)](http://cocoapods.org/pods/CoreNetworking)
 [![CocoaPods](https://img.shields.io/cocoapods/metrics/doc-percent/CoreNetworking.svg?style=flat-square)](http://cocoapods.org/pods/CoreNetworking)
 
-A static library project that simplifies NSURLSession.
+Wrapper project to simplify NSURLSession.
 
 # How to Install it
 
