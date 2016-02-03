@@ -1,0 +1,4 @@
+language: objective-c
+   
+script: 
+   xctool -workspace CoreNetworking.xcworkspace -scheme CoreNetworking build -sdk iphonesimulator
