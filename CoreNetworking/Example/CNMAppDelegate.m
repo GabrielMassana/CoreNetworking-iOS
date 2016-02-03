@@ -21,7 +21,6 @@ NSString *const kCNMNetworkingOperationQueueTypeIdentifier = @"kCNMNetworkingOpe
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    
     [self registerOperationQueues];
 
     return YES;
