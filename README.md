@@ -4,6 +4,7 @@
 [![License](https://img.shields.io/cocoapods/l/CoreNetworking.svg?style=flat-square)](http://cocoapods.org/pods/CoreNetworking)
 [![Platform](https://img.shields.io/cocoapods/p/CoreNetworking.svg?style=flat-square)](http://cocoapods.org/pods/CoreNetworking)
 [![CocoaPods](https://img.shields.io/cocoapods/metrics/doc-percent/CoreNetworking.svg?style=flat-square)](http://cocoapods.org/pods/CoreNetworking)
+[![Build Status](https://img.shields.io/travis/GabrielMassana/CoreNetworking-iOS/master.svg?style=flat-square)](https://travis-ci.org/GabrielMassana/CoreNetworking-iOS)
 
 Wrapper project to simplify NSURLSession.
 
