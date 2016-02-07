@@ -16,4 +16,6 @@ extern NSString * const CNMHTTPRequestMethodHead;
 
 @interface CNMRequest : NSMutableURLRequest
 
++ (instancetype)request;
+
 @end

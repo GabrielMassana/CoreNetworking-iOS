@@ -16,4 +16,11 @@ NSString * const CNMHTTPRequestMethodHead = @"HEAD";
 
 @implementation CNMRequest
 
++ (instancetype)request
+{
+    CNMRequest *request = [[self alloc] init];
+    
+    return request;
+}
+
 @end
