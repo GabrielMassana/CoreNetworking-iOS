@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "CoreNetworking"
-  s.version      = "1.0.6"
+  s.version      = "1.0.7"
   s.summary      = "A static library project that simplifies NSURLSession."
 
   s.homepage     = "https://github.com/GabrielMassana"
