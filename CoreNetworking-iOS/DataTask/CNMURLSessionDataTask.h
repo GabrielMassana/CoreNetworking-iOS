@@ -8,9 +8,11 @@
 
 #import <Foundation/Foundation.h>
 
+typedef void (^_Nullable CNMNetworkingOnCompletion)(NSData *__nullable data, NSURLResponse *__nullable response, NSError *__nullable error);
+
 @interface CNMURLSessionDataTask : NSObject
 
-@property (nonatomic, copy) void(^_Nullable onCompletion)(NSData *__nullable data, NSURLResponse *__nullable response, NSError *__nullable error);
+@property (nonatomic, copy) CNMNetworkingOnCompletion onCompletion;
 
 @property (nonatomic, strong) NSURLSessionDataTask *__nonnull task;
 

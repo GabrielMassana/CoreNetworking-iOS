@@ -14,6 +14,5 @@ extern NSString *const kCNMNetworkingOperationQueueTypeIdentifier;
 
 @property (strong, nonatomic) UIWindow *window;
 
-
 @end
 
